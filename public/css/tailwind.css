@@ -1,8 +1,0 @@
-/* This is a subset of tailwind classes that we use on RR  */
-.clear-left {
-  clear: left;
-}
-
-.flex-nowrap {
-  flex-wrap: nowrap;
-}

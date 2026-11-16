@@ -1,9 +1,0 @@
-{% comment %}
-  To Use in a Post: {% raw %} {% include sticker-text.html text=""  %} {% endraw %}
-  Css is in the post.css file
-{% endcomment %}
-<div class="sticker-container">
-  <span class="sticker wow slideInLeft" data-text="{{ include.text }}" style="--shine-angle: 8deg; --c1: {{ include.color1 }}; --c2: {{ include.color2 | default: include.color1 }};">
-    <span>{{ include.text }}</span>
-  </span>
-</div>

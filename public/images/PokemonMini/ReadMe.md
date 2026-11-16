@@ -1,1 +1,0 @@
-# Pokemon Mini Images
